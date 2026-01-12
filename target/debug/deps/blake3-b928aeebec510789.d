@@ -1,0 +1,11 @@
+/Users/technoking/Downloads/name_service/target/debug/deps/libblake3-b928aeebec510789.rmeta: /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/lib.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/guts.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/platform.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/ffi_neon.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/portable.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/traits.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/join.rs
+
+/Users/technoking/Downloads/name_service/target/debug/deps/blake3-b928aeebec510789.d: /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/lib.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/guts.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/platform.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/ffi_neon.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/portable.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/traits.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/join.rs
+
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/lib.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/guts.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/platform.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/ffi_neon.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/portable.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/traits.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/join.rs:

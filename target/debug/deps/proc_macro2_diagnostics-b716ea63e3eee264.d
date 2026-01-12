@@ -1,0 +1,10 @@
+/Users/technoking/Downloads/name_service/target/debug/deps/libproc_macro2_diagnostics-b716ea63e3eee264.rmeta: /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-diagnostics-0.9.1/src/lib.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-diagnostics-0.9.1/src/ext.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-diagnostics-0.9.1/src/diagnostic.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-diagnostics-0.9.1/src/line.rs
+
+/Users/technoking/Downloads/name_service/target/debug/deps/libproc_macro2_diagnostics-b716ea63e3eee264.rlib: /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-diagnostics-0.9.1/src/lib.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-diagnostics-0.9.1/src/ext.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-diagnostics-0.9.1/src/diagnostic.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-diagnostics-0.9.1/src/line.rs
+
+/Users/technoking/Downloads/name_service/target/debug/deps/proc_macro2_diagnostics-b716ea63e3eee264.d: /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-diagnostics-0.9.1/src/lib.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-diagnostics-0.9.1/src/ext.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-diagnostics-0.9.1/src/diagnostic.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-diagnostics-0.9.1/src/line.rs
+
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-diagnostics-0.9.1/src/lib.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-diagnostics-0.9.1/src/ext.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-diagnostics-0.9.1/src/diagnostic.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-diagnostics-0.9.1/src/line.rs:

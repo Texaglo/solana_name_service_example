@@ -1,0 +1,11 @@
+/Users/technoking/Downloads/name_service/target/debug/deps/libgetrandom-d696521012e495bf.rmeta: /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/lib.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/error.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/util.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/error_impls.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/util_libc.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/use_file.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/macos.rs
+
+/Users/technoking/Downloads/name_service/target/debug/deps/getrandom-d696521012e495bf.d: /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/lib.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/error.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/util.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/error_impls.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/util_libc.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/use_file.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/macos.rs
+
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/lib.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/error.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/util.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/error_impls.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/util_libc.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/use_file.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/macos.rs:

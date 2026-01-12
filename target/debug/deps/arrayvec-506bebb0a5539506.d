@@ -1,0 +1,11 @@
+/Users/technoking/Downloads/name_service/target/debug/deps/libarrayvec-506bebb0a5539506.rmeta: /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/lib.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/arrayvec_impl.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/arrayvec.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/array_string.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/char.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/errors.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/utils.rs
+
+/Users/technoking/Downloads/name_service/target/debug/deps/arrayvec-506bebb0a5539506.d: /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/lib.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/arrayvec_impl.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/arrayvec.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/array_string.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/char.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/errors.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/utils.rs
+
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/lib.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/arrayvec_impl.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/arrayvec.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/array_string.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/char.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/errors.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/utils.rs:

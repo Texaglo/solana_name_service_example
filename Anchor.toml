@@ -1,0 +1,24 @@
+[features]
+seeds = false
+[programs.devnet]
+solana_nft = "4A2s98HfWP1taTtukxV9qKmD8bfL1YuR9HJUvfN8Y7se"
+
+[test]
+startup_wait = 30000
+programID = "4A2s98HfWP1taTtukxV9qKmD8bfL1YuR9HJUvfN8Y7se"
+[test.validator]
+url = "https://api.devnet.solana.com"
+[[test.validator.clone]]
+address = "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"
+[[test.validator.clone]]
+address = "cndy3Z4yapfJBmL3ShUp5exZKqR3z33thTzeNMm2gRZ"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "./path/to/wallet"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

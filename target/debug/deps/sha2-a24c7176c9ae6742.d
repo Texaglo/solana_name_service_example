@@ -1,0 +1,11 @@
+/Users/technoking/Downloads/name_service/target/debug/deps/libsha2-a24c7176c9ae6742.rmeta: /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/lib.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/core_api.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/sha256.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/sha512.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/consts.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/sha256/soft.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/sha512/soft.rs
+
+/Users/technoking/Downloads/name_service/target/debug/deps/sha2-a24c7176c9ae6742.d: /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/lib.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/core_api.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/sha256.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/sha512.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/consts.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/sha256/soft.rs /Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/sha512/soft.rs
+
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/lib.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/core_api.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/sha256.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/sha512.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/consts.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/sha256/soft.rs:
+/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/sha512/soft.rs:

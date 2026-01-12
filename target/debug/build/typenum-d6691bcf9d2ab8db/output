@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/technoking/Downloads/name_service/target/debug/build/typenum-d6691bcf9d2ab8db/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/technoking/Downloads/name_service/target/debug/build/typenum-d6691bcf9d2ab8db/out/op.rs

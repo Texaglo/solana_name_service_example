@@ -1,0 +1,514 @@
+warning: profiles for the non root package will be ignored, specify profiles at the workspace root:
+package:   /Users/technoking/Downloads/name_service/programs/solana_nft/Cargo.toml
+workspace: /Users/technoking/Downloads/name_service/Cargo.toml
+warning: virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+note: to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+note: to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+note: for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+    Updating crates.io index
+     Locking 104 packages to latest compatible versions
+      Adding aead v0.4.3
+      Adding aes v0.7.5
+      Adding aes-gcm-siv v0.10.3
+    Updating anchor-attribute-access-control v0.24.2 -> v0.26.0
+    Updating anchor-attribute-account v0.24.2 -> v0.26.0
+    Updating anchor-attribute-constant v0.24.2 -> v0.26.0
+    Updating anchor-attribute-error v0.24.2 -> v0.26.0
+    Updating anchor-attribute-event v0.24.2 -> v0.26.0
+    Updating anchor-attribute-interface v0.24.2 -> v0.26.0
+    Updating anchor-attribute-program v0.24.2 -> v0.26.0
+    Updating anchor-attribute-state v0.24.2 -> v0.26.0
+    Updating anchor-derive-accounts v0.24.2 -> v0.26.0
+    Updating anchor-lang v0.24.2 -> v0.26.0 (available: v0.32.1)
+    Updating anchor-spl v0.24.2 -> v0.26.0 (available: v0.32.1)
+    Updating anchor-syn v0.24.2 -> v0.26.0
+      Adding assert_matches v1.5.0
+      Adding bitflags v2.10.0
+      Adding bitmaps v2.1.0
+    Updating bytemuck v1.9.1 -> v1.24.0
+    Updating bytemuck_derive v1.1.0 -> v1.10.2
+      Adding chrono v0.4.42
+      Adding cipher v0.3.0
+      Adding cipher v0.4.3 (available: v0.4.4)
+      Adding crossbeam-deque v0.8.6
+      Adding crossbeam-epoch v0.9.18
+      Adding crossbeam-utils v0.8.21
+      Adding ctr v0.8.0
+      Adding derivation-path v0.2.0
+      Adding ed25519 v1.5.3
+      Adding ed25519-dalek v1.0.1
+      Adding ed25519-dalek-bip32 v0.2.0
+    Updating either v1.6.1 -> v1.15.0
+      Adding fnv v1.0.7
+      Adding hashbrown v0.12.3
+      Adding hmac v0.12.1
+      Adding im v15.1.0
+      Adding inout v0.1.4
+      Adding jobserver v0.1.32 (available: v0.1.34)
+    Updating js-sys v0.3.57 -> v0.3.76 (available: v0.3.83)
+    Updating lock_api v0.4.7 -> v0.4.14
+      Adding memoffset v0.6.5
+      Adding merlin v3.0.0
+      Adding mpl-token-auth-rules v1.4.3-beta.1 (available: v1.5.1)
+    Updating mpl-token-metadata v1.2.10 -> v1.13.2 (available: v5.1.1)
+      Adding mpl-token-metadata-context-derive v0.2.1
+      Adding mpl-token-metadata-context-derive v0.3.0
+      Adding mpl-utils v0.3.6
+    Updating num_enum v0.5.7 -> v0.5.11
+    Updating num_enum_derive v0.5.7 -> v0.5.11
+    Updating parking_lot v0.11.2 -> v0.12.5
+    Updating parking_lot_core v0.8.5 -> v0.9.12
+      Adding paste v1.0.15
+      Adding pbkdf2 v0.4.0
+      Adding pbkdf2 v0.11.0
+      Adding percent-encoding v2.3.2
+      Adding polyval v0.5.3
+    Updating proc-macro2 v1.0.39 -> v1.0.105
+      Adding qstring v0.7.2
+    Updating quote v1.0.18 -> v1.0.43
+      Adding rand_core v0.6.4
+      Adding rand_xoshiro v0.6.0
+      Adding rayon v1.11.0
+      Adding rayon-core v1.13.0
+    Updating redox_syscall v0.2.13 -> v0.5.18
+      Adding rmp v0.8.14 (available: v0.8.15)
+      Adding rmp-serde v1.3.1
+      Adding rustc-hash v1.1.0
+    Updating rustversion v1.0.6 -> v1.0.22
+    Updating serde v1.0.137 -> v1.0.228
+      Adding serde_core v1.0.228
+    Updating serde_derive v1.0.137 -> v1.0.228
+      Adding sha2 v0.10.5 (available: v0.10.9)
+      Adding sha3 v0.10.4 (available: v0.10.8)
+    Updating shank v0.0.2 -> v0.0.11
+    Updating shank_macro v0.0.2 -> v0.0.11
+    Updating shank_macro_impl v0.0.2 -> v0.0.11
+      Adding signature v1.6.4
+      Adding sized-chunks v0.6.5
+    Updating solana-frozen-abi v1.9.28 -> v1.14.29 (available: v1.18.26)
+    Updating solana-frozen-abi-macro v1.9.28 -> v1.14.29 (available: v1.18.26)
+    Updating solana-logger v1.9.28 -> v1.14.29 (available: v1.18.26)
+    Updating solana-program v1.9.28 -> v1.14.29 (available: v1.18.26)
+      Adding solana-sdk v1.14.29 (available: v1.18.26)
+    Updating solana-sdk-macro v1.9.28 -> v1.14.29 (available: v1.18.26)
+      Adding solana-zk-token-sdk v1.14.29 (available: v1.18.26)
+    Updating spl-associated-token-account v1.0.3 -> v1.1.3
+      Adding spl-memo v3.0.1
+    Updating spl-token v3.2.0 -> v3.5.0
+      Adding spl-token-2022 v0.6.1
+      Adding syn v1.0.109
+      Adding syn v2.0.114
+      Adding tiny-bip39 v0.8.2
+      Adding tinyvec v1.10.0
+      Adding tinyvec_macros v0.1.1
+      Adding unicode-normalization v0.1.25
+      Adding universal-hash v0.4.1
+      Adding uriparse v0.6.4
+    Updating wasm-bindgen v0.2.80 -> v0.2.99 (available: v0.2.106)
+    Updating wasm-bindgen-backend v0.2.80 -> v0.2.99 (available: v0.2.104)
+    Updating wasm-bindgen-macro v0.2.80 -> v0.2.99 (available: v0.2.106)
+    Updating wasm-bindgen-macro-support v0.2.80 -> v0.2.99 (available: v0.2.106)
+    Updating wasm-bindgen-shared v0.2.80 -> v0.2.99 (available: v0.2.106)
+      Adding windows-link v0.2.1
+      Adding zeroize_derive v1.4.3
+   1.803970000s  INFO prepare_target{force=false package_id=solana_nft v0.1.0 (/Users/technoking/Downloads/name_service/programs/solana_nft) target="solana_nft"}: cargo::core::compiler::fingerprint: fingerprint dirty for solana_nft v0.1.0 (/Users/technoking/Downloads/name_service/programs/solana_nft)/Check { test: false }/TargetInner { ..: lib_target("solana_nft", ["cdylib", "lib"], "/Users/technoking/Downloads/name_service/programs/solana_nft/src/lib.rs", Edition2021) }
+   1.803990875s  INFO prepare_target{force=false package_id=solana_nft v0.1.0 (/Users/technoking/Downloads/name_service/programs/solana_nft) target="solana_nft"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.804455500s  INFO prepare_target{force=false package_id=anchor-lang v0.26.0 target="anchor_lang"}: cargo::core::compiler::fingerprint: fingerprint dirty for anchor-lang v0.26.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("anchor_lang", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anchor-lang-0.26.0/src/lib.rs", Edition2021) }
+   1.804464750s  INFO prepare_target{force=false package_id=anchor-lang v0.26.0 target="anchor_lang"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.815991209s  INFO prepare_target{force=false package_id=arrayref v0.3.6 target="arrayref"}: cargo::core::compiler::fingerprint: fingerprint dirty for arrayref v0.3.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("arrayref", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayref-0.3.6/src/lib.rs", Edition2015) }
+   1.816002417s  INFO prepare_target{force=false package_id=arrayref v0.3.6 target="arrayref"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.816366000s  INFO prepare_target{force=false package_id=base64 v0.13.0 target="base64"}: cargo::core::compiler::fingerprint: fingerprint dirty for base64 v0.13.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base64", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/base64-0.13.0/src/lib.rs", Edition2018) }
+   1.816372750s  INFO prepare_target{force=false package_id=base64 v0.13.0 target="base64"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.816782834s  INFO prepare_target{force=false package_id=bincode v1.3.3 target="bincode"}: cargo::core::compiler::fingerprint: fingerprint dirty for bincode v1.3.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bincode", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bincode-1.3.3/src/lib.rs", Edition2015) }
+   1.816789542s  INFO prepare_target{force=false package_id=bincode v1.3.3 target="bincode"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.817104209s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint dirty for serde v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs", Edition2021) }
+   1.817108750s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.817647334s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint: fingerprint dirty for serde_core v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde_core", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_core-1.0.228/src/lib.rs", Edition2021) }
+   1.817652250s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.817989250s  INFO prepare_target{force=false package_id=borsh v0.9.3 target="borsh"}: cargo::core::compiler::fingerprint: fingerprint dirty for borsh v0.9.3/Check { test: false }/TargetInner { ..: lib_target("borsh", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.9.3/src/lib.rs", Edition2018) }
+   1.817993625s  INFO prepare_target{force=false package_id=borsh v0.9.3 target="borsh"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.819068875s  INFO prepare_target{force=false package_id=hashbrown v0.11.2 target="hashbrown"}: cargo::core::compiler::fingerprint: fingerprint dirty for hashbrown v0.11.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hashbrown", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hashbrown-0.11.2/src/lib.rs", Edition2018) }
+   1.819076042s  INFO prepare_target{force=false package_id=hashbrown v0.11.2 target="hashbrown"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.819474167s  INFO prepare_target{force=false package_id=ahash v0.7.6 target="ahash"}: cargo::core::compiler::fingerprint: fingerprint dirty for ahash v0.7.6/Check { test: false }/TargetInner { ..: lib_target("ahash", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.6/src/lib.rs", Edition2018) }
+   1.819489625s  INFO prepare_target{force=false package_id=ahash v0.7.6 target="ahash"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.820140167s  INFO prepare_target{force=false package_id=getrandom v0.2.6 target="getrandom"}: cargo::core::compiler::fingerprint: fingerprint dirty for getrandom v0.2.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("getrandom", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.6/src/lib.rs", Edition2018) }
+   1.820149250s  INFO prepare_target{force=false package_id=getrandom v0.2.6 target="getrandom"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.820510375s  INFO prepare_target{force=false package_id=cfg-if v1.0.0 target="cfg_if"}: cargo::core::compiler::fingerprint: fingerprint dirty for cfg-if v1.0.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cfg_if", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cfg-if-1.0.0/src/lib.rs", Edition2018) }
+   1.820514750s  INFO prepare_target{force=false package_id=cfg-if v1.0.0 target="cfg_if"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.820710917s  INFO prepare_target{force=false package_id=libc v0.2.126 target="libc"}: cargo::core::compiler::fingerprint: fingerprint dirty for libc v0.2.126/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("libc", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.126/src/lib.rs", Edition2015) }
+   1.820715542s  INFO prepare_target{force=false package_id=libc v0.2.126 target="libc"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.820997500s  INFO prepare_target{force=false package_id=once_cell v1.12.0 target="once_cell"}: cargo::core::compiler::fingerprint: fingerprint dirty for once_cell v1.12.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("once_cell", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/once_cell-1.12.0/src/lib.rs", Edition2018) }
+   1.821003292s  INFO prepare_target{force=false package_id=once_cell v1.12.0 target="once_cell"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.821347542s  INFO prepare_target{force=false package_id=bytemuck v1.24.0 target="bytemuck"}: cargo::core::compiler::fingerprint: fingerprint dirty for bytemuck v1.24.0/Check { test: false }/TargetInner { ..: lib_target("bytemuck", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bytemuck-1.24.0/src/lib.rs", Edition2018) }
+   1.821351667s  INFO prepare_target{force=false package_id=bytemuck v1.24.0 target="bytemuck"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.821802459s  INFO prepare_target{force=false package_id=solana-program v1.14.29 target="solana_program"}: cargo::core::compiler::fingerprint: fingerprint dirty for solana-program v1.14.29/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("solana_program", ["cdylib", "rlib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-program-1.14.29/src/lib.rs", Edition2021) }
+   1.821812209s  INFO prepare_target{force=false package_id=solana-program v1.14.29 target="solana_program"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.822791875s  INFO prepare_target{force=false package_id=bitflags v1.3.2 target="bitflags"}: cargo::core::compiler::fingerprint: fingerprint dirty for bitflags v1.3.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bitflags", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-1.3.2/src/lib.rs", Edition2018) }
+   1.822799417s  INFO prepare_target{force=false package_id=bitflags v1.3.2 target="bitflags"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.823141500s  INFO prepare_target{force=false package_id=blake3 v1.3.1 target="blake3"}: cargo::core::compiler::fingerprint: fingerprint dirty for blake3 v1.3.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("blake3", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.3.1/src/lib.rs", Edition2018) }
+   1.823145834s  INFO prepare_target{force=false package_id=blake3 v1.3.1 target="blake3"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.823546584s  INFO prepare_target{force=false package_id=arrayvec v0.7.2 target="arrayvec"}: cargo::core::compiler::fingerprint: fingerprint dirty for arrayvec v0.7.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("arrayvec", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.2/src/lib.rs", Edition2018) }
+   1.823550375s  INFO prepare_target{force=false package_id=arrayvec v0.7.2 target="arrayvec"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.824401292s  INFO prepare_target{force=false package_id=constant_time_eq v0.1.5 target="constant_time_eq"}: cargo::core::compiler::fingerprint: fingerprint dirty for constant_time_eq v0.1.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("constant_time_eq", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/constant_time_eq-0.1.5/src/lib.rs", Edition2015) }
+   1.824405459s  INFO prepare_target{force=false package_id=constant_time_eq v0.1.5 target="constant_time_eq"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.824706209s  INFO prepare_target{force=false package_id=digest v0.10.3 target="digest"}: cargo::core::compiler::fingerprint: fingerprint dirty for digest v0.10.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/digest-0.10.3/src/lib.rs", Edition2018) }
+   1.824710167s  INFO prepare_target{force=false package_id=digest v0.10.3 target="digest"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.825037292s  INFO prepare_target{force=false package_id=block-buffer v0.10.2 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint dirty for block-buffer v0.10.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block-buffer-0.10.2/src/lib.rs", Edition2018) }
+   1.825043584s  INFO prepare_target{force=false package_id=block-buffer v0.10.2 target="block_buffer"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.825233667s  INFO prepare_target{force=false package_id=generic-array v0.14.5 target="generic_array"}: cargo::core::compiler::fingerprint: fingerprint dirty for generic-array v0.14.5/Check { test: false }/TargetInner { ..: lib_target("generic_array", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.14.5/src/lib.rs", Edition2015) }
+   1.825237667s  INFO prepare_target{force=false package_id=generic-array v0.14.5 target="generic_array"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.825615792s  INFO prepare_target{force=false package_id=typenum v1.15.0 target="typenum"}: cargo::core::compiler::fingerprint: fingerprint dirty for typenum v1.15.0/Check { test: false }/TargetInner { ..: lib_target("typenum", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/typenum-1.15.0/src/lib.rs", Edition2018) }
+   1.825620042s  INFO prepare_target{force=false package_id=typenum v1.15.0 target="typenum"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.825828250s  INFO prepare_target{force=false package_id=crypto-common v0.1.3 target="crypto_common"}: cargo::core::compiler::fingerprint: fingerprint dirty for crypto-common v0.1.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crypto_common", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crypto-common-0.1.3/src/lib.rs", Edition2018) }
+   1.825832500s  INFO prepare_target{force=false package_id=crypto-common v0.1.3 target="crypto_common"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.826182000s  INFO prepare_target{force=false package_id=subtle v2.4.1 target="subtle"}: cargo::core::compiler::fingerprint: fingerprint dirty for subtle v2.4.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("subtle", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/subtle-2.4.1/src/lib.rs", Edition2015) }
+   1.826187375s  INFO prepare_target{force=false package_id=subtle v2.4.1 target="subtle"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.826476250s  INFO prepare_target{force=false package_id=bs58 v0.4.0 target="bs58"}: cargo::core::compiler::fingerprint: fingerprint dirty for bs58 v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bs58", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/lib.rs", Edition2018) }
+   1.826483625s  INFO prepare_target{force=false package_id=bs58 v0.4.0 target="bs58"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.826696959s  INFO prepare_target{force=false package_id=bv v0.11.1 target="bv"}: cargo::core::compiler::fingerprint: fingerprint dirty for bv v0.11.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bv", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bv-0.11.1/src/lib.rs", Edition2015) }
+   1.826701125s  INFO prepare_target{force=false package_id=bv v0.11.1 target="bv"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.827385250s  INFO prepare_target{force=false package_id=curve25519-dalek v3.2.1 target="curve25519_dalek"}: cargo::core::compiler::fingerprint: fingerprint dirty for curve25519-dalek v3.2.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("curve25519_dalek", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/curve25519-dalek-3.2.1/src/lib.rs", Edition2015) }
+   1.827389209s  INFO prepare_target{force=false package_id=curve25519-dalek v3.2.1 target="curve25519_dalek"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.827829042s  INFO prepare_target{force=false package_id=byteorder v1.4.3 target="byteorder"}: cargo::core::compiler::fingerprint: fingerprint dirty for byteorder v1.4.3/Check { test: false }/TargetInner { benched: false, ..: lib_target("byteorder", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/byteorder-1.4.3/src/lib.rs", Edition2018) }
+   1.827835375s  INFO prepare_target{force=false package_id=byteorder v1.4.3 target="byteorder"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.828211000s  INFO prepare_target{force=false package_id=digest v0.9.0 target="digest"}: cargo::core::compiler::fingerprint: fingerprint dirty for digest v0.9.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/digest-0.9.0/src/lib.rs", Edition2018) }
+   1.828215334s  INFO prepare_target{force=false package_id=digest v0.9.0 target="digest"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.828394209s  INFO prepare_target{force=false package_id=rand_core v0.5.1 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint dirty for rand_core v0.5.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_core", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.5.1/src/lib.rs", Edition2018) }
+   1.828397875s  INFO prepare_target{force=false package_id=rand_core v0.5.1 target="rand_core"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.828576667s  INFO prepare_target{force=false package_id=getrandom v0.1.16 target="getrandom"}: cargo::core::compiler::fingerprint: fingerprint dirty for getrandom v0.1.16/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("getrandom", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.1.16/src/lib.rs", Edition2018) }
+   1.828580167s  INFO prepare_target{force=false package_id=getrandom v0.1.16 target="getrandom"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.829165125s  INFO prepare_target{force=false package_id=zeroize v1.3.0 target="zeroize"}: cargo::core::compiler::fingerprint: fingerprint dirty for zeroize v1.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("zeroize", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zeroize-1.3.0/src/lib.rs", Edition2018) }
+   1.829169584s  INFO prepare_target{force=false package_id=zeroize v1.3.0 target="zeroize"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.829580000s  INFO prepare_target{force=false package_id=itertools v0.10.3 target="itertools"}: cargo::core::compiler::fingerprint: fingerprint dirty for itertools v0.10.3/Check { test: false }/TargetInner { name_inferred: true, tested: false, benched: false, ..: lib_target("itertools", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/itertools-0.10.3/src/lib.rs", Edition2018) }
+   1.829584084s  INFO prepare_target{force=false package_id=itertools v0.10.3 target="itertools"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.829883750s  INFO prepare_target{force=false package_id=either v1.15.0 target="either"}: cargo::core::compiler::fingerprint: fingerprint dirty for either v1.15.0/Check { test: false }/TargetInner { ..: lib_target("either", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/lib.rs", Edition2021) }
+   1.829888167s  INFO prepare_target{force=false package_id=either v1.15.0 target="either"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.830299292s  INFO prepare_target{force=false package_id=lazy_static v1.4.0 target="lazy_static"}: cargo::core::compiler::fingerprint: fingerprint dirty for lazy_static v1.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("lazy_static", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lazy_static-1.4.0/src/lib.rs", Edition2015) }
+   1.830304834s  INFO prepare_target{force=false package_id=lazy_static v1.4.0 target="lazy_static"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.830618959s  INFO prepare_target{force=false package_id=libsecp256k1 v0.6.0 target="libsecp256k1"}: cargo::core::compiler::fingerprint: fingerprint dirty for libsecp256k1 v0.6.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("libsecp256k1", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libsecp256k1-0.6.0/src/lib.rs", Edition2018) }
+   1.830623125s  INFO prepare_target{force=false package_id=libsecp256k1 v0.6.0 target="libsecp256k1"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.831219584s  INFO prepare_target{force=false package_id=base64 v0.12.3 target="base64"}: cargo::core::compiler::fingerprint: fingerprint dirty for base64 v0.12.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base64", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/base64-0.12.3/src/lib.rs", Edition2018) }
+   1.831232542s  INFO prepare_target{force=false package_id=base64 v0.12.3 target="base64"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.831605917s  INFO prepare_target{force=false package_id=hmac-drbg v0.3.0 target="hmac_drbg"}: cargo::core::compiler::fingerprint: fingerprint dirty for hmac-drbg v0.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hmac_drbg", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hmac-drbg-0.3.0/src/lib.rs", Edition2018) }
+   1.831612875s  INFO prepare_target{force=false package_id=hmac-drbg v0.3.0 target="hmac_drbg"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.832098209s  INFO prepare_target{force=false package_id=hmac v0.8.1 target="hmac"}: cargo::core::compiler::fingerprint: fingerprint dirty for hmac v0.8.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hmac", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hmac-0.8.1/src/lib.rs", Edition2018) }
+   1.832102542s  INFO prepare_target{force=false package_id=hmac v0.8.1 target="hmac"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.832445334s  INFO prepare_target{force=false package_id=crypto-mac v0.8.0 target="crypto_mac"}: cargo::core::compiler::fingerprint: fingerprint dirty for crypto-mac v0.8.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crypto_mac", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crypto-mac-0.8.0/src/lib.rs", Edition2018) }
+   1.832451375s  INFO prepare_target{force=false package_id=crypto-mac v0.8.0 target="crypto_mac"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.833935959s  INFO prepare_target{force=false package_id=libsecp256k1-core v0.2.2 target="libsecp256k1_core"}: cargo::core::compiler::fingerprint: fingerprint dirty for libsecp256k1-core v0.2.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("libsecp256k1_core", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libsecp256k1-core-0.2.2/src/lib.rs", Edition2018) }
+   1.833942875s  INFO prepare_target{force=false package_id=libsecp256k1-core v0.2.2 target="libsecp256k1_core"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.834306209s  INFO prepare_target{force=false package_id=crunchy v0.2.2 target="crunchy"}: cargo::core::compiler::fingerprint: fingerprint dirty for crunchy v0.2.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crunchy", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crunchy-0.2.2/src/lib.rs", Edition2015) }
+   1.834311167s  INFO prepare_target{force=false package_id=crunchy v0.2.2 target="crunchy"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.834467792s  INFO prepare_target{force=false package_id=rand v0.7.3 target="rand"}: cargo::core::compiler::fingerprint: fingerprint dirty for rand v0.7.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand-0.7.3/src/lib.rs", Edition2018) }
+   1.834471750s  INFO prepare_target{force=false package_id=rand v0.7.3 target="rand"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.834731542s  INFO prepare_target{force=false package_id=rand_chacha v0.2.2 target="rand_chacha"}: cargo::core::compiler::fingerprint: fingerprint dirty for rand_chacha v0.2.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_chacha", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_chacha-0.2.2/src/lib.rs", Edition2018) }
+   1.834738000s  INFO prepare_target{force=false package_id=rand_chacha v0.2.2 target="rand_chacha"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.834963042s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.16 target="ppv_lite86"}: cargo::core::compiler::fingerprint: fingerprint dirty for ppv-lite86 v0.2.16/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ppv_lite86", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.16/src/lib.rs", Edition2018) }
+   1.834967500s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.16 target="ppv_lite86"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.835132709s  INFO prepare_target{force=false package_id=sha2 v0.9.9 target="sha2"}: cargo::core::compiler::fingerprint: fingerprint dirty for sha2 v0.9.9/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha2", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.9.9/src/lib.rs", Edition2018) }
+   1.835137292s  INFO prepare_target{force=false package_id=sha2 v0.9.9 target="sha2"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.835417042s  INFO prepare_target{force=false package_id=block-buffer v0.9.0 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint dirty for block-buffer v0.9.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block-buffer-0.9.0/src/lib.rs", Edition2018) }
+   1.835430000s  INFO prepare_target{force=false package_id=block-buffer v0.9.0 target="block_buffer"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.835789292s  INFO prepare_target{force=false package_id=block-padding v0.2.1 target="block_padding"}: cargo::core::compiler::fingerprint: fingerprint dirty for block-padding v0.2.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_padding", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block-padding-0.2.1/src/lib.rs", Edition2018) }
+   1.835794209s  INFO prepare_target{force=false package_id=block-padding v0.2.1 target="block_padding"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.836143917s  INFO prepare_target{force=false package_id=cpufeatures v0.2.2 target="cpufeatures"}: cargo::core::compiler::fingerprint: fingerprint dirty for cpufeatures v0.2.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cpufeatures", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpufeatures-0.2.2/src/lib.rs", Edition2018) }
+   1.836155125s  INFO prepare_target{force=false package_id=cpufeatures v0.2.2 target="cpufeatures"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.836465417s  INFO prepare_target{force=false package_id=opaque-debug v0.3.0 target="opaque_debug"}: cargo::core::compiler::fingerprint: fingerprint dirty for opaque-debug v0.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("opaque_debug", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/opaque-debug-0.3.0/src/lib.rs", Edition2018) }
+   1.836474167s  INFO prepare_target{force=false package_id=opaque-debug v0.3.0 target="opaque_debug"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.836694584s  INFO prepare_target{force=false package_id=log v0.4.17 target="log"}: cargo::core::compiler::fingerprint: fingerprint dirty for log v0.4.17/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("log", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.17/src/lib.rs", Edition2015) }
+   1.836698709s  INFO prepare_target{force=false package_id=log v0.4.17 target="log"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.837403834s  INFO prepare_target{force=false package_id=memoffset v0.6.5 target="memoffset"}: cargo::core::compiler::fingerprint: fingerprint dirty for memoffset v0.6.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("memoffset", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.6.5/src/lib.rs", Edition2015) }
+   1.837412042s  INFO prepare_target{force=false package_id=memoffset v0.6.5 target="memoffset"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.838243625s  INFO prepare_target{force=false package_id=num-traits v0.2.15 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint dirty for num-traits v0.2.15/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-traits-0.2.15/src/lib.rs", Edition2015) }
+   1.838249292s  INFO prepare_target{force=false package_id=num-traits v0.2.15 target="num_traits"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.839015584s  INFO prepare_target{force=false package_id=serde_bytes v0.11.6 target="serde_bytes"}: cargo::core::compiler::fingerprint: fingerprint dirty for serde_bytes v0.11.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("serde_bytes", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.6/src/lib.rs", Edition2018) }
+   1.839019500s  INFO prepare_target{force=false package_id=serde_bytes v0.11.6 target="serde_bytes"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.839346125s  INFO prepare_target{force=false package_id=serde_json v1.0.81 target="serde_json"}: cargo::core::compiler::fingerprint: fingerprint dirty for serde_json v1.0.81/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("serde_json", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_json-1.0.81/src/lib.rs", Edition2018) }
+   1.839352209s  INFO prepare_target{force=false package_id=serde_json v1.0.81 target="serde_json"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.839602792s  INFO prepare_target{force=false package_id=itoa v1.0.2 target="itoa"}: cargo::core::compiler::fingerprint: fingerprint dirty for itoa v1.0.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("itoa", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/itoa-1.0.2/src/lib.rs", Edition2018) }
+   1.839606875s  INFO prepare_target{force=false package_id=itoa v1.0.2 target="itoa"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.839766917s  INFO prepare_target{force=false package_id=ryu v1.0.10 target="ryu"}: cargo::core::compiler::fingerprint: fingerprint dirty for ryu v1.0.10/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ryu", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ryu-1.0.10/src/lib.rs", Edition2018) }
+   1.839771709s  INFO prepare_target{force=false package_id=ryu v1.0.10 target="ryu"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.840032000s  INFO prepare_target{force=false package_id=sha2 v0.10.5 target="sha2"}: cargo::core::compiler::fingerprint: fingerprint dirty for sha2 v0.10.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha2", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.5/src/lib.rs", Edition2018) }
+   1.840039417s  INFO prepare_target{force=false package_id=sha2 v0.10.5 target="sha2"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.840298417s  INFO prepare_target{force=false package_id=sha3 v0.10.4 target="sha3"}: cargo::core::compiler::fingerprint: fingerprint dirty for sha3 v0.10.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha3", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha3-0.10.4/src/lib.rs", Edition2018) }
+   1.840303792s  INFO prepare_target{force=false package_id=sha3 v0.10.4 target="sha3"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.840678084s  INFO prepare_target{force=false package_id=keccak v0.1.2 target="keccak"}: cargo::core::compiler::fingerprint: fingerprint dirty for keccak v0.1.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("keccak", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keccak-0.1.2/src/lib.rs", Edition2015) }
+   1.840683542s  INFO prepare_target{force=false package_id=keccak v0.1.2 target="keccak"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.841061167s  INFO prepare_target{force=false package_id=solana-frozen-abi v1.14.29 target="solana_frozen_abi"}: cargo::core::compiler::fingerprint: fingerprint dirty for solana-frozen-abi v1.14.29/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("solana_frozen_abi", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-frozen-abi-1.14.29/src/lib.rs", Edition2021) }
+   1.841066042s  INFO prepare_target{force=false package_id=solana-frozen-abi v1.14.29 target="solana_frozen_abi"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.842013875s  INFO prepare_target{force=false package_id=cc v1.0.73 target="cc"}: cargo::core::compiler::fingerprint: fingerprint dirty for cc v1.0.73/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cc", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cc-1.0.73/src/lib.rs", Edition2018) }
+   1.842020250s  INFO prepare_target{force=false package_id=cc v1.0.73 target="cc"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.842465709s  INFO prepare_target{force=false package_id=jobserver v0.1.32 target="jobserver"}: cargo::core::compiler::fingerprint: fingerprint dirty for jobserver v0.1.32/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("jobserver", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/jobserver-0.1.32/src/lib.rs", Edition2021) }
+   1.842470125s  INFO prepare_target{force=false package_id=jobserver v0.1.32 target="jobserver"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.842694292s  INFO prepare_target{force=false package_id=hashbrown v0.12.3 target="hashbrown"}: cargo::core::compiler::fingerprint: fingerprint dirty for hashbrown v0.12.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hashbrown", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hashbrown-0.12.3/src/lib.rs", Edition2021) }
+   1.842698500s  INFO prepare_target{force=false package_id=hashbrown v0.12.3 target="hashbrown"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.843045584s  INFO prepare_target{force=false package_id=im v15.1.0 target="im"}: cargo::core::compiler::fingerprint: fingerprint dirty for im v15.1.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("im", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/im-15.1.0/src/lib.rs", Edition2018) }
+   1.843050250s  INFO prepare_target{force=false package_id=im v15.1.0 target="im"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.843642125s  INFO prepare_target{force=false package_id=bitmaps v2.1.0 target="bitmaps"}: cargo::core::compiler::fingerprint: fingerprint dirty for bitmaps v2.1.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bitmaps", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitmaps-2.1.0/src/lib.rs", Edition2018) }
+   1.843646625s  INFO prepare_target{force=false package_id=bitmaps v2.1.0 target="bitmaps"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.844265875s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint dirty for rand_core v0.6.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_core", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.6.4/src/lib.rs", Edition2018) }
+   1.844274917s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.844597417s  INFO prepare_target{force=false package_id=rand_xoshiro v0.6.0 target="rand_xoshiro"}: cargo::core::compiler::fingerprint: fingerprint dirty for rand_xoshiro v0.6.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_xoshiro", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_xoshiro-0.6.0/src/lib.rs", Edition2018) }
+   1.844603625s  INFO prepare_target{force=false package_id=rand_xoshiro v0.6.0 target="rand_xoshiro"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.844932084s  INFO prepare_target{force=false package_id=rayon v1.11.0 target="rayon"}: cargo::core::compiler::fingerprint: fingerprint dirty for rayon v1.11.0/Check { test: false }/TargetInner { ..: lib_target("rayon", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.11.0/src/lib.rs", Edition2021) }
+   1.844938625s  INFO prepare_target{force=false package_id=rayon v1.11.0 target="rayon"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.845426875s  INFO prepare_target{force=false package_id=rayon-core v1.13.0 target="rayon_core"}: cargo::core::compiler::fingerprint: fingerprint dirty for rayon-core v1.13.0/Check { test: false }/TargetInner { ..: lib_target("rayon_core", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-core-1.13.0/src/lib.rs", Edition2021) }
+   1.845431000s  INFO prepare_target{force=false package_id=rayon-core v1.13.0 target="rayon_core"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.845644667s  INFO prepare_target{force=false package_id=crossbeam-deque v0.8.6 target="crossbeam_deque"}: cargo::core::compiler::fingerprint: fingerprint dirty for crossbeam-deque v0.8.6/Check { test: false }/TargetInner { ..: lib_target("crossbeam_deque", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossbeam-deque-0.8.6/src/lib.rs", Edition2021) }
+   1.845649250s  INFO prepare_target{force=false package_id=crossbeam-deque v0.8.6 target="crossbeam_deque"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.845848375s  INFO prepare_target{force=false package_id=crossbeam-epoch v0.9.18 target="crossbeam_epoch"}: cargo::core::compiler::fingerprint: fingerprint dirty for crossbeam-epoch v0.9.18/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crossbeam_epoch", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossbeam-epoch-0.9.18/src/lib.rs", Edition2021) }
+   1.845852250s  INFO prepare_target{force=false package_id=crossbeam-epoch v0.9.18 target="crossbeam_epoch"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.846021292s  INFO prepare_target{force=false package_id=crossbeam-utils v0.8.21 target="crossbeam_utils"}: cargo::core::compiler::fingerprint: fingerprint dirty for crossbeam-utils v0.8.21/Check { test: false }/TargetInner { ..: lib_target("crossbeam_utils", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossbeam-utils-0.8.21/src/lib.rs", Edition2021) }
+   1.846025459s  INFO prepare_target{force=false package_id=crossbeam-utils v0.8.21 target="crossbeam_utils"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.846763959s  INFO prepare_target{force=false package_id=sized-chunks v0.6.5 target="sized_chunks"}: cargo::core::compiler::fingerprint: fingerprint dirty for sized-chunks v0.6.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sized_chunks", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sized-chunks-0.6.5/src/lib.rs", Edition2018) }
+   1.846768375s  INFO prepare_target{force=false package_id=sized-chunks v0.6.5 target="sized_chunks"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.847097500s  INFO prepare_target{force=false package_id=memmap2 v0.5.3 target="memmap2"}: cargo::core::compiler::fingerprint: fingerprint dirty for memmap2 v0.5.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("memmap2", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memmap2-0.5.3/src/lib.rs", Edition2018) }
+   1.847102709s  INFO prepare_target{force=false package_id=memmap2 v0.5.3 target="memmap2"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.848281000s  INFO prepare_target{force=false package_id=thiserror v1.0.31 target="thiserror"}: cargo::core::compiler::fingerprint: fingerprint dirty for thiserror v1.0.31/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("thiserror", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-1.0.31/src/lib.rs", Edition2018) }
+   1.848286084s  INFO prepare_target{force=false package_id=thiserror v1.0.31 target="thiserror"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.849159875s  INFO prepare_target{force=false package_id=tiny-bip39 v0.8.2 target="bip39"}: cargo::core::compiler::fingerprint: fingerprint dirty for tiny-bip39 v0.8.2/Check { test: false }/TargetInner { ..: lib_target("bip39", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tiny-bip39-0.8.2/src/lib.rs", Edition2018) }
+   1.849164375s  INFO prepare_target{force=false package_id=tiny-bip39 v0.8.2 target="bip39"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.849688709s  INFO prepare_target{force=false package_id=anyhow v1.0.57 target="anyhow"}: cargo::core::compiler::fingerprint: fingerprint dirty for anyhow v1.0.57/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("anyhow", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anyhow-1.0.57/src/lib.rs", Edition2018) }
+   1.849692750s  INFO prepare_target{force=false package_id=anyhow v1.0.57 target="anyhow"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.850016167s  INFO prepare_target{force=false package_id=pbkdf2 v0.4.0 target="pbkdf2"}: cargo::core::compiler::fingerprint: fingerprint dirty for pbkdf2 v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("pbkdf2", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pbkdf2-0.4.0/src/lib.rs", Edition2018) }
+   1.850021334s  INFO prepare_target{force=false package_id=pbkdf2 v0.4.0 target="pbkdf2"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.850414834s  INFO prepare_target{force=false package_id=rustc-hash v1.1.0 target="rustc_hash"}: cargo::core::compiler::fingerprint: fingerprint dirty for rustc-hash v1.1.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rustc_hash", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustc-hash-1.1.0/src/lib.rs", Edition2015) }
+   1.850418709s  INFO prepare_target{force=false package_id=rustc-hash v1.1.0 target="rustc_hash"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.850692000s  INFO prepare_target{force=false package_id=unicode-normalization v0.1.25 target="unicode_normalization"}: cargo::core::compiler::fingerprint: fingerprint dirty for unicode-normalization v0.1.25/Check { test: false }/TargetInner { ..: lib_target("unicode_normalization", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-normalization-0.1.25/src/lib.rs", Edition2018) }
+   1.850696459s  INFO prepare_target{force=false package_id=unicode-normalization v0.1.25 target="unicode_normalization"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.851048000s  INFO prepare_target{force=false package_id=tinyvec v1.10.0 target="tinyvec"}: cargo::core::compiler::fingerprint: fingerprint dirty for tinyvec v1.10.0/Check { test: false }/TargetInner { ..: lib_target("tinyvec", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.10.0/src/lib.rs", Edition2018) }
+   1.851053209s  INFO prepare_target{force=false package_id=tinyvec v1.10.0 target="tinyvec"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.851502125s  INFO prepare_target{force=false package_id=tinyvec_macros v0.1.1 target="tinyvec_macros"}: cargo::core::compiler::fingerprint: fingerprint dirty for tinyvec_macros v0.1.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("tinyvec_macros", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec_macros-0.1.1/src/lib.rs", Edition2018) }
+   1.851507167s  INFO prepare_target{force=false package_id=tinyvec_macros v0.1.1 target="tinyvec_macros"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.851775875s  INFO prepare_target{force=false package_id=wasm-bindgen v0.2.99 target="wasm_bindgen"}: cargo::core::compiler::fingerprint: fingerprint dirty for wasm-bindgen v0.2.99/Check { test: false }/TargetInner { tested: false, ..: lib_target("wasm_bindgen", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-0.2.99/src/lib.rs", Edition2021) }
+   1.851779875s  INFO prepare_target{force=false package_id=wasm-bindgen v0.2.99 target="wasm_bindgen"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.853413000s  INFO prepare_target{force=false package_id=anchor-spl v0.26.0 target="anchor_spl"}: cargo::core::compiler::fingerprint: fingerprint dirty for anchor-spl v0.26.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("anchor_spl", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anchor-spl-0.26.0/src/lib.rs", Edition2021) }
+   1.853421709s  INFO prepare_target{force=false package_id=anchor-spl v0.26.0 target="anchor_spl"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.853730834s  INFO prepare_target{force=false package_id=mpl-token-metadata v1.13.2 target="mpl_token_metadata"}: cargo::core::compiler::fingerprint: fingerprint dirty for mpl-token-metadata v1.13.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("mpl_token_metadata", ["cdylib", "lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mpl-token-metadata-1.13.2/src/lib.rs", Edition2021) }
+   1.853735375s  INFO prepare_target{force=false package_id=mpl-token-metadata v1.13.2 target="mpl_token_metadata"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.854399167s  INFO prepare_target{force=false package_id=mpl-token-auth-rules v1.4.3-beta.1 target="mpl_token_auth_rules"}: cargo::core::compiler::fingerprint: fingerprint dirty for mpl-token-auth-rules v1.4.3-beta.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("mpl_token_auth_rules", ["cdylib", "lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mpl-token-auth-rules-1.4.3-beta.1/src/lib.rs", Edition2021) }
+   1.854407417s  INFO prepare_target{force=false package_id=mpl-token-auth-rules v1.4.3-beta.1 target="mpl_token_auth_rules"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.855232459s  INFO prepare_target{force=false package_id=rmp-serde v1.3.1 target="rmp_serde"}: cargo::core::compiler::fingerprint: fingerprint dirty for rmp-serde v1.3.1/Check { test: false }/TargetInner { ..: lib_target("rmp_serde", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rmp-serde-1.3.1/src/lib.rs", Edition2024) }
+   1.855239209s  INFO prepare_target{force=false package_id=rmp-serde v1.3.1 target="rmp_serde"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.855661792s  INFO prepare_target{force=false package_id=rmp v0.8.14 target="rmp"}: cargo::core::compiler::fingerprint: fingerprint dirty for rmp v0.8.14/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rmp", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rmp-0.8.14/src/lib.rs", Edition2021) }
+   1.855665959s  INFO prepare_target{force=false package_id=rmp v0.8.14 target="rmp"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.856538250s  INFO prepare_target{force=false package_id=shank v0.0.11 target="shank"}: cargo::core::compiler::fingerprint: fingerprint dirty for shank v0.0.11/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("shank", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/shank-0.0.11/src/lib.rs", Edition2018) }
+   1.856542709s  INFO prepare_target{force=false package_id=shank v0.0.11 target="shank"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.857012875s  INFO prepare_target{force=false package_id=solana-zk-token-sdk v1.14.29 target="solana_zk_token_sdk"}: cargo::core::compiler::fingerprint: fingerprint dirty for solana-zk-token-sdk v1.14.29/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("solana_zk_token_sdk", ["cdylib", "rlib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-zk-token-sdk-1.14.29/src/lib.rs", Edition2021) }
+   1.857019334s  INFO prepare_target{force=false package_id=solana-zk-token-sdk v1.14.29 target="solana_zk_token_sdk"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.857924709s  INFO prepare_target{force=false package_id=aes-gcm-siv v0.10.3 target="aes_gcm_siv"}: cargo::core::compiler::fingerprint: fingerprint dirty for aes-gcm-siv v0.10.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("aes_gcm_siv", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aes-gcm-siv-0.10.3/src/lib.rs", Edition2018) }
+   1.857930584s  INFO prepare_target{force=false package_id=aes-gcm-siv v0.10.3 target="aes_gcm_siv"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.858474375s  INFO prepare_target{force=false package_id=aead v0.4.3 target="aead"}: cargo::core::compiler::fingerprint: fingerprint dirty for aead v0.4.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("aead", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aead-0.4.3/src/lib.rs", Edition2018) }
+   1.858478584s  INFO prepare_target{force=false package_id=aead v0.4.3 target="aead"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.858790750s  INFO prepare_target{force=false package_id=aes v0.7.5 target="aes"}: cargo::core::compiler::fingerprint: fingerprint dirty for aes v0.7.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("aes", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aes-0.7.5/src/lib.rs", Edition2018) }
+   1.858794750s  INFO prepare_target{force=false package_id=aes v0.7.5 target="aes"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.859566750s  INFO prepare_target{force=false package_id=cipher v0.3.0 target="cipher"}: cargo::core::compiler::fingerprint: fingerprint dirty for cipher v0.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cipher", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cipher-0.3.0/src/lib.rs", Edition2018) }
+   1.859572084s  INFO prepare_target{force=false package_id=cipher v0.3.0 target="cipher"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.860164875s  INFO prepare_target{force=false package_id=ctr v0.8.0 target="ctr"}: cargo::core::compiler::fingerprint: fingerprint dirty for ctr v0.8.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ctr", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ctr-0.8.0/src/lib.rs", Edition2018) }
+   1.860170292s  INFO prepare_target{force=false package_id=ctr v0.8.0 target="ctr"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.861183292s  INFO prepare_target{force=false package_id=polyval v0.5.3 target="polyval"}: cargo::core::compiler::fingerprint: fingerprint dirty for polyval v0.5.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("polyval", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/polyval-0.5.3/src/lib.rs", Edition2018) }
+   1.861189917s  INFO prepare_target{force=false package_id=polyval v0.5.3 target="polyval"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.861564667s  INFO prepare_target{force=false package_id=universal-hash v0.4.1 target="universal_hash"}: cargo::core::compiler::fingerprint: fingerprint dirty for universal-hash v0.4.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("universal_hash", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/universal-hash-0.4.1/src/lib.rs", Edition2018) }
+   1.861573792s  INFO prepare_target{force=false package_id=universal-hash v0.4.1 target="universal_hash"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.861811667s  INFO prepare_target{force=false package_id=cipher v0.4.3 target="cipher"}: cargo::core::compiler::fingerprint: fingerprint dirty for cipher v0.4.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cipher", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cipher-0.4.3/src/lib.rs", Edition2021) }
+   1.861818875s  INFO prepare_target{force=false package_id=cipher v0.4.3 target="cipher"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.862053875s  INFO prepare_target{force=false package_id=inout v0.1.4 target="inout"}: cargo::core::compiler::fingerprint: fingerprint dirty for inout v0.1.4/Check { test: false }/TargetInner { ..: lib_target("inout", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inout-0.1.4/src/lib.rs", Edition2021) }
+   1.862060209s  INFO prepare_target{force=false package_id=inout v0.1.4 target="inout"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.862422084s  INFO prepare_target{force=false package_id=merlin v3.0.0 target="merlin"}: cargo::core::compiler::fingerprint: fingerprint dirty for merlin v3.0.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("merlin", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/merlin-3.0.0/src/lib.rs", Edition2018) }
+   1.862426584s  INFO prepare_target{force=false package_id=merlin v3.0.0 target="merlin"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.862711917s  INFO prepare_target{force=false package_id=sha3 v0.9.1 target="sha3"}: cargo::core::compiler::fingerprint: fingerprint dirty for sha3 v0.9.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha3", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha3-0.9.1/src/lib.rs", Edition2018) }
+   1.862716417s  INFO prepare_target{force=false package_id=sha3 v0.9.1 target="sha3"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.863187584s  INFO prepare_target{force=false package_id=solana-sdk v1.14.29 target="solana_sdk"}: cargo::core::compiler::fingerprint: fingerprint dirty for solana-sdk v1.14.29/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("solana_sdk", ["cdylib", "rlib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-sdk-1.14.29/src/lib.rs", Edition2021) }
+   1.863192584s  INFO prepare_target{force=false package_id=solana-sdk v1.14.29 target="solana_sdk"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.864442667s  INFO prepare_target{force=false package_id=assert_matches v1.5.0 target="assert_matches"}: cargo::core::compiler::fingerprint: fingerprint dirty for assert_matches v1.5.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("assert_matches", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/assert_matches-1.5.0/src/lib.rs", Edition2015) }
+   1.864447167s  INFO prepare_target{force=false package_id=assert_matches v1.5.0 target="assert_matches"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.864607959s  INFO prepare_target{force=false package_id=chrono v0.4.42 target="chrono"}: cargo::core::compiler::fingerprint: fingerprint dirty for chrono v0.4.42/Check { test: false }/TargetInner { ..: lib_target("chrono", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-0.4.42/src/lib.rs", Edition2021) }
+   1.864611709s  INFO prepare_target{force=false package_id=chrono v0.4.42 target="chrono"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.864873875s  INFO prepare_target{force=false package_id=derivation-path v0.2.0 target="derivation_path"}: cargo::core::compiler::fingerprint: fingerprint dirty for derivation-path v0.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("derivation_path", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derivation-path-0.2.0/src/lib.rs", Edition2018) }
+   1.864879000s  INFO prepare_target{force=false package_id=derivation-path v0.2.0 target="derivation_path"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.865221292s  INFO prepare_target{force=false package_id=ed25519-dalek v1.0.1 target="ed25519_dalek"}: cargo::core::compiler::fingerprint: fingerprint dirty for ed25519-dalek v1.0.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ed25519_dalek", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-1.0.1/src/lib.rs", Edition2018) }
+   1.865226000s  INFO prepare_target{force=false package_id=ed25519-dalek v1.0.1 target="ed25519_dalek"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.865557542s  INFO prepare_target{force=false package_id=ed25519 v1.5.3 target="ed25519"}: cargo::core::compiler::fingerprint: fingerprint dirty for ed25519 v1.5.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ed25519", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-1.5.3/src/lib.rs", Edition2021) }
+   1.865562375s  INFO prepare_target{force=false package_id=ed25519 v1.5.3 target="ed25519"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.865773042s  INFO prepare_target{force=false package_id=signature v1.6.4 target="signature"}: cargo::core::compiler::fingerprint: fingerprint dirty for signature v1.6.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("signature", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/signature-1.6.4/src/lib.rs", Edition2021) }
+   1.865778167s  INFO prepare_target{force=false package_id=signature v1.6.4 target="signature"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.865969209s  INFO prepare_target{force=false package_id=ed25519-dalek-bip32 v0.2.0 target="ed25519_dalek_bip32"}: cargo::core::compiler::fingerprint: fingerprint dirty for ed25519-dalek-bip32 v0.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ed25519_dalek_bip32", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ed25519-dalek-bip32-0.2.0/src/lib.rs", Edition2018) }
+   1.865974500s  INFO prepare_target{force=false package_id=ed25519-dalek-bip32 v0.2.0 target="ed25519_dalek_bip32"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.866284459s  INFO prepare_target{force=false package_id=hmac v0.12.1 target="hmac"}: cargo::core::compiler::fingerprint: fingerprint dirty for hmac v0.12.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hmac", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hmac-0.12.1/src/lib.rs", Edition2018) }
+   1.866289834s  INFO prepare_target{force=false package_id=hmac v0.12.1 target="hmac"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.866507084s  INFO prepare_target{force=false package_id=pbkdf2 v0.11.0 target="pbkdf2"}: cargo::core::compiler::fingerprint: fingerprint dirty for pbkdf2 v0.11.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("pbkdf2", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pbkdf2-0.11.0/src/lib.rs", Edition2021) }
+   1.866510834s  INFO prepare_target{force=false package_id=pbkdf2 v0.11.0 target="pbkdf2"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.866711000s  INFO prepare_target{force=false package_id=qstring v0.7.2 target="qstring"}: cargo::core::compiler::fingerprint: fingerprint dirty for qstring v0.7.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("qstring", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qstring-0.7.2/src/lib.rs", Edition2018) }
+   1.866718834s  INFO prepare_target{force=false package_id=qstring v0.7.2 target="qstring"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.866915542s  INFO prepare_target{force=false package_id=percent-encoding v2.3.2 target="percent_encoding"}: cargo::core::compiler::fingerprint: fingerprint dirty for percent-encoding v2.3.2/Check { test: false }/TargetInner { ..: lib_target("percent_encoding", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/percent-encoding-2.3.2/src/lib.rs", Edition2018) }
+   1.866920542s  INFO prepare_target{force=false package_id=percent-encoding v2.3.2 target="percent_encoding"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.867289334s  INFO prepare_target{force=false package_id=solana-logger v1.14.29 target="solana_logger"}: cargo::core::compiler::fingerprint: fingerprint dirty for solana-logger v1.14.29/Check { test: false }/TargetInner { ..: lib_target("solana_logger", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-logger-1.14.29/src/lib.rs", Edition2021) }
+   1.867294959s  INFO prepare_target{force=false package_id=solana-logger v1.14.29 target="solana_logger"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.867610625s  INFO prepare_target{force=false package_id=env_logger v0.9.0 target="env_logger"}: cargo::core::compiler::fingerprint: fingerprint dirty for env_logger v0.9.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("env_logger", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/env_logger-0.9.0/src/lib.rs", Edition2018) }
+   1.867614375s  INFO prepare_target{force=false package_id=env_logger v0.9.0 target="env_logger"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.867950250s  INFO prepare_target{force=false package_id=atty v0.2.14 target="atty"}: cargo::core::compiler::fingerprint: fingerprint dirty for atty v0.2.14/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("atty", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/atty-0.2.14/src/lib.rs", Edition2015) }
+   1.867955250s  INFO prepare_target{force=false package_id=atty v0.2.14 target="atty"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.868173209s  INFO prepare_target{force=false package_id=humantime v2.1.0 target="humantime"}: cargo::core::compiler::fingerprint: fingerprint dirty for humantime v2.1.0/Check { test: false }/TargetInner { ..: lib_target("humantime", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/humantime-2.1.0/src/lib.rs", Edition2018) }
+   1.868177167s  INFO prepare_target{force=false package_id=humantime v2.1.0 target="humantime"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.868358625s  INFO prepare_target{force=false package_id=regex v1.5.6 target="regex"}: cargo::core::compiler::fingerprint: fingerprint dirty for regex v1.5.6/Check { test: false }/TargetInner { name_inferred: true, benched: false, doctest: false, ..: lib_target("regex", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/regex-1.5.6/src/lib.rs", Edition2018) }
+   1.868363167s  INFO prepare_target{force=false package_id=regex v1.5.6 target="regex"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.868661917s  INFO prepare_target{force=false package_id=aho-corasick v0.7.18 target="aho_corasick"}: cargo::core::compiler::fingerprint: fingerprint dirty for aho-corasick v0.7.18/Check { test: false }/TargetInner { ..: lib_target("aho_corasick", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aho-corasick-0.7.18/src/lib.rs", Edition2018) }
+   1.868666500s  INFO prepare_target{force=false package_id=aho-corasick v0.7.18 target="aho_corasick"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.868895667s  INFO prepare_target{force=false package_id=memchr v2.5.0 target="memchr"}: cargo::core::compiler::fingerprint: fingerprint dirty for memchr v2.5.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("memchr", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memchr-2.5.0/src/lib.rs", Edition2018) }
+   1.868900084s  INFO prepare_target{force=false package_id=memchr v2.5.0 target="memchr"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.869106125s  INFO prepare_target{force=false package_id=regex-syntax v0.6.26 target="regex_syntax"}: cargo::core::compiler::fingerprint: fingerprint dirty for regex-syntax v0.6.26/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("regex_syntax", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/regex-syntax-0.6.26/src/lib.rs", Edition2018) }
+   1.869111250s  INFO prepare_target{force=false package_id=regex-syntax v0.6.26 target="regex_syntax"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.869309875s  INFO prepare_target{force=false package_id=termcolor v1.1.3 target="termcolor"}: cargo::core::compiler::fingerprint: fingerprint dirty for termcolor v1.1.3/Check { test: false }/TargetInner { benched: false, ..: lib_target("termcolor", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/termcolor-1.1.3/src/lib.rs", Edition2018) }
+   1.869314334s  INFO prepare_target{force=false package_id=termcolor v1.1.3 target="termcolor"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.869929417s  INFO prepare_target{force=false package_id=uriparse v0.6.4 target="uriparse"}: cargo::core::compiler::fingerprint: fingerprint dirty for uriparse v0.6.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("uriparse", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uriparse-0.6.4/src/lib.rs", Edition2018) }
+   1.869935000s  INFO prepare_target{force=false package_id=uriparse v0.6.4 target="uriparse"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.870181834s  INFO prepare_target{force=false package_id=fnv v1.0.7 target="fnv"}: cargo::core::compiler::fingerprint: fingerprint dirty for fnv v1.0.7/Check { test: false }/TargetInner { ..: lib_target("fnv", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fnv-1.0.7/lib.rs", Edition2015) }
+   1.870185875s  INFO prepare_target{force=false package_id=fnv v1.0.7 target="fnv"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.870774750s  INFO prepare_target{force=false package_id=mpl-utils v0.3.6 target="mpl_utils"}: cargo::core::compiler::fingerprint: fingerprint dirty for mpl-utils v0.3.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("mpl_utils", ["cdylib", "lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mpl-utils-0.3.6/src/lib.rs", Edition2021) }
+   1.870783292s  INFO prepare_target{force=false package_id=mpl-utils v0.3.6 target="mpl_utils"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.871187917s  INFO prepare_target{force=false package_id=spl-token-2022 v0.6.1 target="spl_token_2022"}: cargo::core::compiler::fingerprint: fingerprint dirty for spl-token-2022 v0.6.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("spl_token_2022", ["cdylib", "lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-2022-0.6.1/src/lib.rs", Edition2021) }
+   1.871196334s  INFO prepare_target{force=false package_id=spl-token-2022 v0.6.1 target="spl_token_2022"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.871805459s  INFO prepare_target{force=false package_id=num_enum v0.5.11 target="num_enum"}: cargo::core::compiler::fingerprint: fingerprint dirty for num_enum v0.5.11/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_enum", ["lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num_enum-0.5.11/src/lib.rs", Edition2018) }
+   1.871809750s  INFO prepare_target{force=false package_id=num_enum v0.5.11 target="num_enum"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.872254125s  INFO prepare_target{force=false package_id=spl-memo v3.0.1 target="spl_memo"}: cargo::core::compiler::fingerprint: fingerprint dirty for spl-memo v3.0.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("spl_memo", ["cdylib", "lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-memo-3.0.1/src/lib.rs", Edition2018) }
+   1.872258959s  INFO prepare_target{force=false package_id=spl-memo v3.0.1 target="spl_memo"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.872513792s  INFO prepare_target{force=false package_id=spl-token v3.5.0 target="spl_token"}: cargo::core::compiler::fingerprint: fingerprint dirty for spl-token v3.5.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("spl_token", ["cdylib", "lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-token-3.5.0/src/lib.rs", Edition2018) }
+   1.872518000s  INFO prepare_target{force=false package_id=spl-token v3.5.0 target="spl_token"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.872935709s  INFO prepare_target{force=false package_id=spl-associated-token-account v1.1.3 target="spl_associated_token_account"}: cargo::core::compiler::fingerprint: fingerprint dirty for spl-associated-token-account v1.1.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("spl_associated_token_account", ["cdylib", "lib"], "/Users/technoking/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spl-associated-token-account-1.1.3/src/lib.rs", Edition2021) }
+   1.872941042s  INFO prepare_target{force=false package_id=spl-associated-token-account v1.1.3 target="spl_associated_token_account"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   1.873421625s  INFO prepare_target{force=false package_id=solana_nft v0.1.0 (/Users/technoking/Downloads/name_service/programs/solana_nft) target="solana_nft"}: cargo::core::compiler::fingerprint: fingerprint dirty for solana_nft v0.1.0 (/Users/technoking/Downloads/name_service/programs/solana_nft)/Check { test: true }/TargetInner { ..: lib_target("solana_nft", ["cdylib", "lib"], "/Users/technoking/Downloads/name_service/programs/solana_nft/src/lib.rs", Edition2021) }
+   1.873429667s  INFO prepare_target{force=false package_id=solana_nft v0.1.0 (/Users/technoking/Downloads/name_service/programs/solana_nft) target="solana_nft"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+    Checking cfg-if v1.0.0
+    Checking subtle v2.4.1
+    Checking serde_core v1.0.228
+    Checking typenum v1.15.0
+    Checking libc v0.2.126
+    Checking opaque-debug v0.3.0
+    Checking block-padding v0.2.1
+    Checking once_cell v1.12.0
+    Checking byteorder v1.4.3
+    Checking crossbeam-utils v0.8.21
+    Checking zeroize v1.3.0
+    Checking ppv-lite86 v0.2.16
+    Checking either v1.15.0
+    Checking num-traits v0.2.15
+    Checking log v0.4.17
+    Checking tinyvec_macros v0.1.1
+    Checking lazy_static v1.4.0
+    Checking arrayref v0.3.6
+    Checking keccak v0.1.2
+    Checking tinyvec v1.10.0
+    Checking crunchy v0.2.2
+    Checking thiserror v1.0.31
+    Checking constant_time_eq v0.1.5
+    Checking crossbeam-epoch v0.9.18
+    Checking itoa v1.0.2
+    Checking ryu v1.0.10
+    Checking arrayvec v0.7.2
+    Checking anyhow v1.0.57
+    Checking bs58 v0.4.0
+    Checking base64 v0.12.3
+    Checking bitmaps v2.1.0
+    Checking rustc-hash v1.1.0
+    Checking bytemuck v1.24.0
+    Checking crossbeam-deque v0.8.6
+    Checking wasm-bindgen v0.2.99
+    Checking memoffset v0.6.5
+    Checking unicode-normalization v0.1.25
+    Checking itertools v0.10.3
+    Checking rayon-core v1.13.0
+    Checking memchr v2.5.0
+    Checking cpufeatures v0.2.2
+    Checking getrandom v0.1.16
+    Checking getrandom v0.2.6
+    Checking jobserver v0.1.32
+    Checking rand_core v0.5.1
+    Checking memmap2 v0.5.3
+    Checking rand_core v0.6.4
+    Checking ahash v0.7.6
+    Checking rand_chacha v0.2.2
+    Checking cc v1.0.73
+    Checking rayon v1.11.0
+    Checking rand_xoshiro v0.6.0
+    Checking rand v0.7.3
+    Checking hashbrown v0.11.2
+    Checking hashbrown v0.12.3
+    Checking base64 v0.13.0
+    Checking bitflags v1.3.2
+    Checking aho-corasick v0.7.18
+    Checking signature v1.6.4
+    Checking regex-syntax v0.6.26
+    Checking borsh v0.9.3
+    Checking ed25519 v1.5.3
+    Checking sized-chunks v0.6.5
+    Checking atty v0.2.14
+    Checking termcolor v1.1.3
+    Checking humantime v2.1.0
+    Checking fnv v1.0.7
+    Checking percent-encoding v2.3.2
+    Checking derivation-path v0.2.0
+    Checking uriparse v0.6.4
+    Checking chrono v0.4.42
+    Checking assert_matches v1.5.0
+    Checking merlin v3.0.0
+    Checking num_enum v0.5.11
+    Checking qstring v0.7.2
+    Checking rmp v0.8.14
+    Checking shank v0.0.11
+    Checking serde v1.0.228
+    Checking generic-array v0.14.5
+    Checking bv v0.11.1
+    Checking serde_bytes v0.11.6
+    Checking serde_json v1.0.81
+    Checking bincode v1.3.3
+    Checking rmp-serde v1.3.1
+    Checking regex v1.5.6
+    Checking im v15.1.0
+    Checking digest v0.9.0
+    Checking crypto-common v0.1.3
+    Checking block-buffer v0.10.2
+    Checking block-buffer v0.9.0
+    Checking crypto-mac v0.8.0
+    Checking cipher v0.3.0
+    Checking hmac v0.8.1
+    Checking curve25519-dalek v3.2.1
+    Checking libsecp256k1-core v0.2.2
+    Checking digest v0.10.3
+    Checking sha2 v0.9.9
+    Checking pbkdf2 v0.4.0
+    Checking universal-hash v0.4.1
+    Checking hmac-drbg v0.3.0
+    Checking aes v0.7.5
+    Checking ctr v0.8.0
+    Checking polyval v0.5.3
+    Checking sha2 v0.10.5
+    Checking blake3 v1.3.1
+    Checking tiny-bip39 v0.8.2
+    Checking sha3 v0.10.4
+    Checking hmac v0.12.1
+    Checking env_logger v0.9.0
+    Checking pbkdf2 v0.11.0
+    Checking inout v0.1.4
+    Checking aead v0.4.3
+    Checking sha3 v0.9.1
+    Checking cipher v0.4.3
+    Checking aes-gcm-siv v0.10.3
+    Checking solana-logger v1.14.29
+    Checking libsecp256k1 v0.6.0
+    Checking ed25519-dalek v1.0.1
+    Checking ed25519-dalek-bip32 v0.2.0
+    Checking solana-frozen-abi v1.14.29
+    Checking solana-program v1.14.29
+    Checking solana-sdk v1.14.29
+    Checking spl-memo v3.0.1
+    Checking spl-token v3.5.0
+    Checking anchor-lang v0.26.0
+    Checking solana-zk-token-sdk v1.14.29
+    Checking spl-token-2022 v0.6.1
+    Checking mpl-token-auth-rules v1.4.3-beta.1
+    Checking mpl-utils v0.3.6
+    Checking spl-associated-token-account v1.1.3
+    Checking mpl-token-metadata v1.13.2
+    Checking anchor-spl v0.26.0
+error: could not compile `anchor-spl` (lib) due to 1 previous error
